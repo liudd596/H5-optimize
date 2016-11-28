@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>讯众呼叫中心</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div class="intop">
+            <div class="controls">
+                <nav class="links">
+                    <ul class="intopicon">
+                        <li>
+                            <img src="images/index/u1.png" alt=""/>
+                            <img src="images/index/u2.png" alt=""/>
+                            <img src="images/index/u3.png" alt=""/>
+                            <div  class="utopp"><span>空闲&nbsp; 00：12 </span></div>
+                        </li>
+                        <li class="intopicon-icon">
+                            <img src="images/index/icon1.png" alt=""/>
+                            <p  class="bg1" >示忙</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons2.png" alt=""/>
+                            <p  class="bg1" >示闲</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons3.png" alt=""/>
+                            <p  class="bg1" >应答</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons4.png" alt=""/>
+                            <p  class="bg1" >挂断</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons5.png" alt=""/>
+                            <p  class="bg1" >呼出</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons6.png" alt=""/>
+                            <p  class="bg1" >保持</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons7.png" alt=""/>
+                            <p  class="bg1" >接回</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons8.png" alt=""/>
+                            <p  class="bg1" >咨询</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons9.png" alt=""/>
+                            <p  class="bg1" >转移</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons10.png" alt=""/>
+                            <p  class="bg1" >会议</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons11.png" alt=""/>
+                            <p  class="bg1" >转出</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons12.png" alt=""/>
+                            <p  class="bg1" >再拨</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons13.png" alt=""/>
+                            <p  class="bg1" >设置</p>
+                        </li>
+                        <li>
+                            <img src="images/index/icons14.png" alt=""/>
+                            <p  class="bg1 pp" >强复位</p>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="profile-box">
+                                <span class="profile">
+                                    <a href="#" class="section">
+                                        <img class="image" src="images/index/img1.png" alt="image description" width="26" height="26" />
+                                        <span class="text-box">
+                                            Welcome
+                                            <strong class="name">Liudd</strong>
+                                        </span>
+                                    </a>
+                                    <a href="#" class="opener">opener</a>
+                                </span>
+                    <a href="#" class="btn-on">On</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+    <!---------------拨 号 盘------------------->
+    <div id="calcuator">
+        <div>
+            <select>
+                <option>请选择登录角色</option>
+                <option>企业管理员</option>
+                <option>客服坐席</option>
+            </select>
+        </div>
+        <input type="text" id="input-box" value="对方号码" size="21" maxlength="21" readonly="readonly" />
+        <div id="btn-list">
+            <div onclick="operator('clear')" class=" btn-70 btn-radius color-red clear-marginleft">关闭</div>
+            <div onclick="operator('clear')" class=" btn-30 btn-radius color-red">C</div>
+            <div onclick="operator('backspace')" class=" btn-70 btn-radius color-red font-14">←</div>
+            <div onclick="typetoinput('7')" class=" btn-30 btn-radius clear-marginleft">7</div>
+            <div onclick="typetoinput('8')" class=" btn-30 btn-radius">8</div>
+            <div onclick="typetoinput('9')" class=" btn-30 btn-radius">9</div>
+            <div class=" btn-70 btn-radius color-blue font-14">拨号</div>
+            <div onclick="typetoinput('4')" class=" btn-30 btn-radius clear-marginleft">4</div>
+            <div onclick="typetoinput('5')" class=" btn-30 btn-radius">5</div>
+            <div onclick="typetoinput('6')" class=" btn-30 btn-radius">6</div>
+            <div class=" btn-70 btn-radius color-blue font-14">二次拨号</div>
+            <div onclick="typetoinput('1')" class=" btn-30 btn-radius clear-marginleft">1</div>
+            <div onclick="typetoinput('2')" class=" btn-30 btn-radius">2</div>
+            <div onclick="typetoinput('3')" class=" btn-30 btn-radius">3</div>
+            <div class=" btn-7070 btn-radius color-red font-14">挂断</div>
+            <div onclick="typetoinput('*')" class=" btn-30 btn-radius clear-marginleft">*</div>
+            <div onclick="typetoinput('0')" class=" btn-30 btn-radius">0</div>
+            <div onclick="typetoinput('#')" class=" btn-30 btn-radius">#</div>
+        </div>
+    </div>
+</body>
+</html>
